@@ -940,4 +940,8 @@ a.link-downloadhtml:hover {
     top: 8em;
     right: 1.5rem;
   }
+  
+  nav ul {
+    justify-content: center;
+  }
 }
