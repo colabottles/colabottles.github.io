@@ -945,3 +945,44 @@ a.link-downloadhtml:hover {
     justify-content: center;
   }
 }
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .skip-link {
+    top: 10em;
+  }
+
+  header h1 {
+    font-size: var(--font-size-h4);
+  }
+
+  header h2 {
+    max-width: 30ch;
+    font-size: var(--font-size-h4);
+    padding: 0 0.5rem;
+  }
+
+  header {
+    padding: 25vh 0.5rem 1vh 0.5rem;
+  }
+
+  header .container,
+  article .container,
+  section .container,
+  .page-footer .container,
+  #styles .container {
+    max-width: 90vw;
+    margin-bottom: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #contribute h2,
+  #contribute h3,
+  #guidelines h2 {
+    font-size: 2rem;
+  }
+
+  #styles .features {
+    width: 80vw;
+  }
+}
