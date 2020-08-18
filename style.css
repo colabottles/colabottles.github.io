@@ -861,7 +861,7 @@ a.link-downloadhtml:hover {
   fill: currentColor;
 }
 
-@media (min-width: 360px) and (max-width: 540px) {
+@media (min-width: 22.5rem) and (max-width: 33.75rem) {
   header {
     margin-top: 5vh;
     margin-bottom: 0;
@@ -882,7 +882,7 @@ a.link-downloadhtml:hover {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 25rem) {
   header .container {
     margin-top: 5vh;
   }
@@ -935,18 +935,15 @@ a.link-downloadhtml:hover {
   }
 }
 
-@media (min-width: 401px) and (max-width: 800px) {
+@media (min-width: 37.5rem) and (max-width: 50rem) {
   .skip-link {
-    top: 7em;
+    position: absolute;
+    top: 6.5em;
     right: 1.5rem;
-  }
-  
-  nav ul {
-    justify-content: center;
   }
 }
 
-@media (min-width: 320px) and (max-width: 360px) {
+@media (min-width: 20rem) and (max-width: 22.5) {
   .skip-link {
     top: 10em;
   }
